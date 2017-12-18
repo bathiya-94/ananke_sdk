@@ -42,7 +42,7 @@ $npm install ananke_sdk
 
 To begin the connection:
 ```
-const sdk = require(‘ananke_sdk/sdk’');
+const sdk = require(‘ananke_sdk/sdk’);
 var mySdk=sdk(options);
 mySdk.begin(Onconnect,OnMessage);
 
@@ -50,7 +50,7 @@ mySdk.begin(Onconnect,OnMessage);
 To send a message:
 
 ```
-const sdk = require(‘ananke_sdk/sdk’');
+const sdk = require(‘ananke_sdk/sdk’);
 var mySdk=sdk(options);
 mySdk.sendMessage(message);
 
@@ -59,7 +59,7 @@ mySdk.sendMessage(message);
 # Sample Code
 
 ```
-const sdk = require(‘ananke_sdk/sdk’');
+const sdk = require(‘ananke_sdk/sdk’);
 
 var options = {
   		 appId: 'a1476238',
